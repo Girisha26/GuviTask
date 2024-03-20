@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "65fa96203b416b245350ac73"
+  },
+  "id": 1,
+  "name": "Spring Boot",
+  "date": "2020-10-10"
+},
+{
+  "_id": {
+    "$oid": "65fa96203b416b245350ac74"
+  },
+  "id": 2,
+  "name": "Hibernate Framework",
+  "date": "2020-10-15"
+},
+{
+  "_id": {
+    "$oid": "65fa96203b416b245350ac76"
+  },
+  "id": 3,
+  "name": "Microservices Architecture",
+  "date": "2020-10-25"
+},
+{
+  "_id": {
+    "$oid": "65fa96203b416b245350ac77"
+  },
+  "id": 4,
+  "name": "Angular Framework",
+  "date": "2020-10-30"
+},
+{
+  "_id": {
+    "$oid": "65fab5849981c9468b9d4b88"
+  },
+  "id": 5,
+  "name": "Restful API Development",
+  "date": "2020-11-09"
+}]

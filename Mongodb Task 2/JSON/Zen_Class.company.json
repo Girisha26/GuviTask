@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "65fa95433b416b245350ac6f"
+  },
+  "id": 1,
+  "name": "Westminster Corporation",
+  "date": "2020-10-11",
+  "participants": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fa95433b416b245350ac70"
+  },
+  "id": 2,
+  "name": "Buckingham Enterprises",
+  "date": "2020-10-20",
+  "participants": [
+    8,
+    9,
+    10
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fa95433b416b245350ac71"
+  },
+  "id": 3,
+  "name": "Windsor Holdings",
+  "date": "2020-10-22",
+  "participants": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fa95433b416b245350ac72"
+  },
+  "id": 4,
+  "name": "Oxford Industries",
+  "date": "2020-11-09",
+  "participants": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ]
+}]

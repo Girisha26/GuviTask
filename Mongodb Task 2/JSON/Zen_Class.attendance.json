@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b6a"
+  },
+  "user_id": 1,
+  "date": "2020-10-01",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b6b"
+  },
+  "user_id": 2,
+  "date": "2020-10-02",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b6c"
+  },
+  "user_id": 3,
+  "date": "2020-10-03",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b6d"
+  },
+  "user_id": 4,
+  "date": "2020-10-04",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b6e"
+  },
+  "user_id": 5,
+  "date": "2020-10-05",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b6f"
+  },
+  "user_id": 6,
+  "date": "2020-10-15",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b70"
+  },
+  "user_id": 7,
+  "date": "2020-10-16",
+  "status": "absent"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b71"
+  },
+  "user_id": 8,
+  "date": "2020-10-17",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b72"
+  },
+  "user_id": 9,
+  "date": "2020-10-18",
+  "status": "absent"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b73"
+  },
+  "user_id": 10,
+  "date": "2020-10-19",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b74"
+  },
+  "user_id": 11,
+  "date": "2020-10-20",
+  "status": "absent"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b75"
+  },
+  "user_id": 12,
+  "date": "2020-10-21",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b76"
+  },
+  "user_id": 13,
+  "date": "2020-10-22",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b77"
+  },
+  "user_id": 14,
+  "date": "2020-10-23",
+  "status": "absent"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b78"
+  },
+  "user_id": 15,
+  "date": "2020-10-24",
+  "status": "absent"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b79"
+  },
+  "user_id": 16,
+  "date": "2020-10-25",
+  "status": "absent"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b7a"
+  },
+  "user_id": 17,
+  "date": "2020-10-26",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b7b"
+  },
+  "user_id": 18,
+  "date": "2020-10-27",
+  "status": "absent"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b7c"
+  },
+  "user_id": 19,
+  "date": "2020-10-28",
+  "status": "present"
+},
+{
+  "_id": {
+    "$oid": "65faaf269981c9468b9d4b7d"
+  },
+  "user_id": 20,
+  "date": "2020-10-29",
+  "status": "present"
+}]

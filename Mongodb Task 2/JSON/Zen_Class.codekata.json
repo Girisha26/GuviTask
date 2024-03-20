@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac78"
+  },
+  "user_id": 1,
+  "problem_solved": 75
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac79"
+  },
+  "user_id": 2,
+  "problem_solved": 92
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac7a"
+  },
+  "user_id": 3,
+  "problem_solved": 60
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac7b"
+  },
+  "user_id": 4,
+  "problem_solved": 80
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac7c"
+  },
+  "user_id": 5,
+  "problem_solved": 70
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac7d"
+  },
+  "user_id": 6,
+  "problem_solved": 85
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac7e"
+  },
+  "user_id": 7,
+  "problem_solved": 55
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac7f"
+  },
+  "user_id": 8,
+  "problem_solved": 95
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac80"
+  },
+  "user_id": 9,
+  "problem_solved": 65
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac81"
+  },
+  "user_id": 10,
+  "problem_solved": 90
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac82"
+  },
+  "user_id": 11,
+  "problem_solved": 57
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac83"
+  },
+  "user_id": 12,
+  "problem_solved": 78
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac84"
+  },
+  "user_id": 13,
+  "problem_solved": 88
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac85"
+  },
+  "user_id": 14,
+  "problem_solved": 68
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac86"
+  },
+  "user_id": 15,
+  "problem_solved": 73
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac87"
+  },
+  "user_id": 16,
+  "problem_solved": 52
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac88"
+  },
+  "user_id": 17,
+  "problem_solved": 97
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac89"
+  },
+  "user_id": 18,
+  "problem_solved": 83
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac8a"
+  },
+  "user_id": 19,
+  "problem_solved": 59
+},
+{
+  "_id": {
+    "$oid": "65fa972a3b416b245350ac8b"
+  },
+  "user_id": 20,
+  "problem_solved": 100
+}]

@@ -1,0 +1,56 @@
+Query 1:
+
+db.topics.aggregate([{ $match: { date: { $gte: "2020-10-01", $lte: "2020-10-31" }}}, { $lookup: { from: "tasks", localField: "id", foreignField: "topic_id", as: "tasks_details" }}, { $match: { "tasks_details.date": { $gte: "2020-10-01", $lte: "2020-10-31" }}}, { $project: { _id: 1,name:1,date:1, "tasks_details.name": 1, "tasks_details.date": 1 }}])
+
+Explanation : 
+
+.It excludes Restful API in topics collections as it is taught in november month.
+
+.Usually task are given after topics have been taught so in tpoics colelction id : 5 Angular tpoic has been tught in oct but its task is given in nov so it excludes Angular Services and Dependency Injection topic_id :5 as the tasks colelction as the task issue date is in November .
+
+Query 2 :
+
+db.company.find({ date: { $gte: "2020-10-15", $lte: "2020-10-31" }}, { _id: 0, name: 1, date: 1 })
+
+Explanation : 
+
+.Display only name and interview date from company collection .
+
+Query 3 :
+
+db.company.aggregate([{ $lookup: { from: "user", localField: "participants", foreignField: "id", as: "participants_info" }}, { $project: { _id: 0, name: 1, date: 1, participants: "$participants_info.name" }}])
+
+Explanation : 
+
+.Display company collection with user name who attended placement with the respective company
+
+Query 4:
+
+ db.codekata.aggregate([{ $lookup: { from: "user", localField: "user_id", foreignField: "id", as: "user" } }, { $unwind: "$user" }, { $group: { _id: { user_id: "$user.id", name: "$user.name" }, user_id: { $first: "$user.id" }, name: { $first: "$user.name" }, problems_solved: { $sum: "$problem_solved" } } },{$sort:{"user_id":1}} ,{ $project: { _id: 0, user_id: 1, name: 1, problems_solved: 1 } }])
+
+Explanation :
+
+.Displays user_id and problems sloved from codekata collection and name from user collection
+
+
+Query 5 :
+
+db.user.aggregate([{ $match: { mentor_id: { $exists: true, $ne: null } } },{ $group: { _id: "$mentor_id", menteeCount: { $sum: 1 } } },{ $match: { menteeCount: { $gt: 3 } } },{ $lookup: { from: "mentors", localField: "_id", foreignField: "id", as: "mentor" } },{ $unwind: "$mentor" },{ $project: { _id: "$mentor.id", name: "$mentor.name", mentee_count: "$menteeCount" } }])
+
+
+Explanation:
+
+Apologies, have created a data for 20 users so can't have mentee count for a huge number like 15 so have just display mentee count along with mentor name and id .
+
+
+Query 6 :
+
+ db.user.aggregate([{ $lookup:{from:"attendance",localField:"id",foreignField:"user_id",as:"user_attendance"}},{ $lookup: { from: "tasks", localField: "id", foreignField: "id", as: "user_tasks" }}, { $match:{ $and:[{ "user_attendance": { $elemMatch: { date: { $gte: "2020-10-15", $lte: "2020-10-31" }, status: "absent" }}}, {$expr:{$eq:[{$size:"$user_tasks"},0]}}]}}, { $group: { _id: null, total_users: { $sum: 1 }}},{$project:{_id:0,total_users:1}}])
+
+
+Explanation:
+
+.includes only  absent users from attendance
+.inculdes users who haven't submitted task betweeen a range 
+.performs add on it 
+.shows count
